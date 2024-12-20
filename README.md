@@ -88,3 +88,7 @@ npx nyc report --reporter=text-summary
 ```
 
 ![Coverage summary](./src/assets/coverage.png)
+
+To see the code coverage on your browser, run the `index.html` file located inside the `coverage/lcov-report` directory using Live Server.
+
+![Coverage summary in UI ](./src/assets/uiCoverage.png)
