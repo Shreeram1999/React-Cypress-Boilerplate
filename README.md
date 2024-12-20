@@ -30,6 +30,12 @@ npm install
 
 ### 3. Run Cypress Tests
 
+First run your react app using
+
+```bash
+npm run start
+```
+
 To open the Cypress Test Runner:
 
 ```bash
