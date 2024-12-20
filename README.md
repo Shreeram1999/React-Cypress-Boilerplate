@@ -43,6 +43,7 @@ cypress-boilerplate/
 ├── cypress/
 │   ├── fixtures/        # Test data files
 │   ├── e2e/             # E2E tests
+│   ├── component/       # Component tests
 │   └── support/         # Custom commands and configurations
 ├── public/              # Static files
 ├── src/                 # Source code for the app (if applicable)

@@ -1,4 +1,5 @@
 const { defineConfig } = require("cypress");
+const webpackConfig = require("./webpack.common.js");
 
 module.exports = defineConfig({
   e2e: {
@@ -10,6 +11,14 @@ module.exports = defineConfig({
       // It's IMPORTANT to return the config object
       // with any changed environment variables
       return config;
+    },
+  },
+
+  component: {
+    devServer: {
+      framework: "react",
+      bundler: "webpack",
+      webpackConfig,
     },
   },
 });
