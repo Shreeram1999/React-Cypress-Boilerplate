@@ -86,3 +86,5 @@ describe("My First Test", () => {
 ```bash
 npx nyc report --reporter=text-summary
 ```
+
+![Coverage summary](./src/assets/coverage.png)
