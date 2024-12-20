@@ -76,7 +76,7 @@ Edit the `cypress.json` file to customize:
 
 ## Writing Tests
 
-1. Create test files in the `cypress/integration` folder.
+1. Create test files in the `cypress/e2e` folder for e2e tests.
 2. Example Test:
 
 ```javascript
